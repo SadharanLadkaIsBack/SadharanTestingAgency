@@ -45,6 +45,11 @@ body {
     color: #c40094;
 }
 
+.navbar a:hover {
+    color: #c40094;
+}
+
+
 .main{
     min-height: 100vh;
     background: url("background.jpg") no-repeat;
