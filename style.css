@@ -9,6 +9,7 @@
 
 body {
     color: #fff;
+    background: #09001d;
 }
 
 .header {
@@ -55,6 +56,11 @@ body {
     background: url("background.jpg") no-repeat;
     background-size: cover;
     background-position: center;
+    transition: .3s ease;
+}
+
+.main.active {
+    filter: blur(15px);
 }
 
 .home {
@@ -111,7 +117,7 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%) scale(0);
+    transform: translate(-50%, -50%) scale(.7);
     width: 500px;
     background: #fff;
     border-radius: 6px;
